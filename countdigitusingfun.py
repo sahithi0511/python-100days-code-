@@ -1,8 +1,9 @@
 def count_digit(n):
-    print(n)
-    while n>0:
+    c=0
+    while (n):
         r=n%10
-        n=n/10
-    print(r)
+        c=c+1
+        n=n//10
+    print(c)
 n=int(input("enter numbers"))
 count_digit(n)
